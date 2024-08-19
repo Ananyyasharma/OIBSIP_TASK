@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.container{
+    background-color: #E5E5FD;
+    min-height:100vh;
+    border: 16px solid #1D1E4C;
+}
+.content{
+    max-width: 80%;
+    margin:auto;
+}
+#abdul-image{
+    width: 15.6rem;
+    height: 18.75rem;
+    border-radius: 10.625rem;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+#abdul-title>h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+
+}
+#abdul-title>h4{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: end;
+    
+}
+#abdul-title{
+    align-self: flex-end;
+}
+#heading{
+    font-size: 55px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.para{
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.bio-title{
+    margin-top: 28px;
+    font-weight: 400px;
+}
+
+#bio-data{
+    margin-top: 20px;
+
+}
+#bio-data>li{
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.bio-section{
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+.footer{
+    text-align: end;
+    margin-bottom: 27px;
+    font-size: 12px;
+}
+
+@media  (max-width:870px) {
+    
+    .top-section{
+        display: block;
+        text-align: center;
+    }
+
+    #abdul-title{
+        margin-top: 2rem;
+    }
+    #abdul-title>h1{
+        font-size: 1.7rem;
+    }
+
+    #heading{
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+
+
+}
